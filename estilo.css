@@ -1,0 +1,235 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/* Aplicação da fonte em todo o corpo do Projeto */
+body{
+    font-family: 'Source Sans Pro' , sans-serif;
+    margin-top: 60px;
+    padding: 0;
+    color: #3d3d3d;
+    background-color: #fff;
+}
+.container {
+    max-width: 1024px;
+}
+
+.topo {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #EEE;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.topo .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    padding: 0 10px;
+    margin: 0 auto;
+ 
+}
+
+.link-logo {
+  margin: 0 40px 0 0; 
+    /* margin-right: 40px; */
+    font-size: 24px;
+    text-decoration: none;
+    color: #3d3d3d;
+    
+}
+
+.link-logo span{
+color: #6592c9;
+}
+
+.link-topo {
+    text-transform: uppercase;
+    /* Pesquisar */
+    line-height: 18px;
+    text-decoration: none;
+    padding: 0px 15px 10px 15px;
+
+}
+
+
+.titulo-site {
+    background: url(assets/img-fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-site-descricao {
+    border: 1px solid;
+    font-size: 28px;
+    color: #FFF;
+    background-color: rgba(10, 144, 119, 0.3);
+    text-align: center;
+    padding: 0 20px;
+    border-radius: 10px;
+}
+
+
+.quartos {
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+.quarto {
+    margin-right: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #00836a;
+    text-decoration: none;
+    color: #3d3d3d;
+  }
+
+  .quarto a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .quarto a p {
+    text-align: center;
+  }
+  
+  .quarto:last-child {
+    margin-right: 0px;
+  }
+
+  .tamanho-maximo-container {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+  
+  .secao-container {
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 50px;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  /* Estilização do container das descricoes */
+
+  .descricoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px; 
+  }
+
+  .descricao {
+    display: flex;
+    width: 45%;
+    margin: 0 10px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .descricao-conteudo {
+    flex:1 1 auto;
+  }
+
+  .descricao img {
+    width: 100px;
+    height: 113px;
+    object-fit: cover;
+    margin-left: 10px;
+  }
+
+.rodape-copyright {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #3b7863;
+  color: #fff; 
+  font-weight: 600;
+  width: 100%;
+}
+.rodape {
+  background-color: #49997D;
+  color: #FFF;
+}
+.rodape-icone {
+  width: 40px;
+  height: 40px;
+}
+.rodape h4 {
+  font-size: 22px;
+  color: #FFF;  
+}
+
+.rodape-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.rodape-info {
+  display: flex;
+  width: 23%;
+  align-items: center;
+}
+
+.rodape-link {
+  text-decoration: none;
+  color: #FFF;
+  margin-right: 10px;
+}
+
+.rodape-icone {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.rodape-info a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+/* Estilização da Pagina de Quartos */
+
+.banner {
+  background: url(assets/img-fundo.jpg);
+  height: 10vh;
+  background-size: cover;
+}
+
+
+.secao-quartos{
+  display: flex;
+  justify-content: space-between;
+}
+
+ .quarto-img{
+  width: 33%;
+  padding-bottom: 10px;
+  margin-right: 20px;
+} 
+
+.quarto-img:last-child{
+  margin-right: 0px;
+}
+
+.foto-quarto-solteiro:last-child , .foto-quarto-casal:last-child , .foto-quarto-familiar:last-child {
+  margin-right: 0px;
+}
+
+.secao-listas{
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  margin-bottom: 5px;
+}
